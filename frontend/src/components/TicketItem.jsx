@@ -8,7 +8,7 @@ function TicketItem({ ticket }) {
   else if( status === 'open'){
     status = 'açık'
   }
-  else if( status === 'close'){
+  else if( status === 'closed'){
     status = 'kapalı'
   } else {
     status = 'durumsuz'
